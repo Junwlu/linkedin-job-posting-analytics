@@ -1,0 +1,677 @@
+[
+  {
+    "component": 1,
+    "terms": [
+      {
+        "term": "experience",
+        "loading": 0.17580923719903233
+      },
+      {
+        "term": "work",
+        "loading": 0.14164729913549254
+      },
+      {
+        "term": "team",
+        "loading": 0.12804632959589593
+      },
+      {
+        "term": "data",
+        "loading": 0.1275624243037459
+      },
+      {
+        "term": "business",
+        "loading": 0.12715389939250427
+      },
+      {
+        "term": "sales",
+        "loading": 0.11235446739970041
+      },
+      {
+        "term": "management",
+        "loading": 0.10802486755162036
+      },
+      {
+        "term": "skills",
+        "loading": 0.10581752329448957
+      },
+      {
+        "term": "project",
+        "loading": 0.0954871500276977
+      },
+      {
+        "term": "company",
+        "loading": 0.09186454285017641
+      }
+    ]
+  },
+  {
+    "component": 2,
+    "terms": [
+      {
+        "term": "sales",
+        "loading": 0.32504852091154235
+      },
+      {
+        "term": "data",
+        "loading": -0.3193994613618787
+      },
+      {
+        "term": "experience",
+        "loading": -0.16756836430933025
+      },
+      {
+        "term": "design",
+        "loading": -0.16341005399803277
+      },
+      {
+        "term": "cloud",
+        "loading": -0.1532789082152023
+      },
+      {
+        "term": "software",
+        "loading": -0.1362932585945265
+      },
+      {
+        "term": "technical",
+        "loading": -0.11957568323956766
+      },
+      {
+        "term": "sql",
+        "loading": -0.11772689677438676
+      },
+      {
+        "term": "azure",
+        "loading": -0.11409633351394541
+      },
+      {
+        "term": "marketing",
+        "loading": 0.1120885694873057
+      }
+    ]
+  },
+  {
+    "component": 3,
+    "terms": [
+      {
+        "term": "sales",
+        "loading": 0.48231539608674995
+      },
+      {
+        "term": "marketing",
+        "loading": 0.2860579106408104
+      },
+      {
+        "term": "business",
+        "loading": 0.1439686800298993
+      },
+      {
+        "term": "product",
+        "loading": 0.11769734990288723
+      },
+      {
+        "term": "status",
+        "loading": -0.10769857647560056
+      },
+      {
+        "term": "customer",
+        "loading": 0.10655693313418124
+      },
+      {
+        "term": "employment",
+        "loading": -0.10335841879299967
+      },
+      {
+        "term": "data",
+        "loading": 0.10255759531947875
+      },
+      {
+        "term": "market",
+        "loading": 0.08899919344542431
+      },
+      {
+        "term": "media",
+        "loading": 0.08485543582968086
+      }
+    ]
+  },
+  {
+    "component": 4,
+    "terms": [
+      {
+        "term": "project",
+        "loading": 0.30284232357814656
+      },
+      {
+        "term": "accounting",
+        "loading": 0.2591738129096108
+      },
+      {
+        "term": "financial",
+        "loading": 0.19161647294481177
+      },
+      {
+        "term": "management",
+        "loading": 0.15892607842635503
+      },
+      {
+        "term": "data",
+        "loading": -0.1204911024479576
+      },
+      {
+        "term": "construction",
+        "loading": 0.10425425482542708
+      },
+      {
+        "term": "status",
+        "loading": -0.1023243752587476
+      },
+      {
+        "term": "sales",
+        "loading": -0.10102959527958055
+      },
+      {
+        "term": "cloud",
+        "loading": -0.09591056876025965
+      },
+      {
+        "term": "projects",
+        "loading": 0.09412287424678249
+      }
+    ]
+  },
+  {
+    "component": 5,
+    "terms": [
+      {
+        "term": "data",
+        "loading": 0.5669761603433577
+      },
+      {
+        "term": "financial",
+        "loading": 0.299335549643699
+      },
+      {
+        "term": "accounting",
+        "loading": 0.28486756095979054
+      },
+      {
+        "term": "project",
+        "loading": -0.23781610938360914
+      },
+      {
+        "term": "design",
+        "loading": -0.15909070983590526
+      },
+      {
+        "term": "engineering",
+        "loading": -0.13691703067107927
+      },
+      {
+        "term": "finance",
+        "loading": 0.1250867478648377
+      },
+      {
+        "term": "sales",
+        "loading": -0.11902267893095639
+      },
+      {
+        "term": "reporting",
+        "loading": 0.11215173508675762
+      },
+      {
+        "term": "software",
+        "loading": -0.10849870096576422
+      }
+    ]
+  },
+  {
+    "component": 6,
+    "terms": [
+      {
+        "term": "sales",
+        "loading": 0.40498748492409486
+      },
+      {
+        "term": "marketing",
+        "loading": -0.3920950171814907
+      },
+      {
+        "term": "project",
+        "loading": -0.2636369989592241
+      },
+      {
+        "term": "media",
+        "loading": -0.25244315483356655
+      },
+      {
+        "term": "content",
+        "loading": -0.23452364269804293
+      },
+      {
+        "term": "social",
+        "loading": -0.19101559617332237
+      },
+      {
+        "term": "customer",
+        "loading": 0.16574494497039216
+      },
+      {
+        "term": "digital",
+        "loading": -0.1625484584390829
+      },
+      {
+        "term": "social media",
+        "loading": -0.1618746383572275
+      },
+      {
+        "term": "creative",
+        "loading": -0.1335449540049425
+      }
+    ]
+  },
+  {
+    "component": 7,
+    "terms": [
+      {
+        "term": "data",
+        "loading": 0.5255222770591353
+      },
+      {
+        "term": "accounting",
+        "loading": -0.3368973480128157
+      },
+      {
+        "term": "financial",
+        "loading": -0.30664028975995744
+      },
+      {
+        "term": "project",
+        "loading": 0.13711686979343443
+      },
+      {
+        "term": "software",
+        "loading": -0.1262179777743243
+      },
+      {
+        "term": "finance",
+        "loading": -0.11347354768745227
+      },
+      {
+        "term": "safety",
+        "loading": 0.1107246810323847
+      },
+      {
+        "term": "quality",
+        "loading": 0.10841363681207343
+      },
+      {
+        "term": "sales",
+        "loading": 0.1033872011553859
+      },
+      {
+        "term": "client",
+        "loading": -0.09829439603256677
+      }
+    ]
+  },
+  {
+    "component": 8,
+    "terms": [
+      {
+        "term": "project",
+        "loading": 0.3944891133333609
+      },
+      {
+        "term": "marketing",
+        "loading": -0.1880896202915172
+      },
+      {
+        "term": "business",
+        "loading": 0.17625416883313424
+      },
+      {
+        "term": "media",
+        "loading": -0.1592966045258736
+      },
+      {
+        "term": "social",
+        "loading": -0.13427858254042047
+      },
+      {
+        "term": "content",
+        "loading": -0.1318154858173701
+      },
+      {
+        "term": "status",
+        "loading": 0.11865118419775647
+      },
+      {
+        "term": "social media",
+        "loading": -0.1159057794455741
+      },
+      {
+        "term": "financial",
+        "loading": 0.10875702989413111
+      },
+      {
+        "term": "patient",
+        "loading": -0.10470919282665929
+      }
+    ]
+  },
+  {
+    "component": 9,
+    "terms": [
+      {
+        "term": "project",
+        "loading": 0.3795409716362384
+      },
+      {
+        "term": "ai",
+        "loading": 0.2060421392726824
+      },
+      {
+        "term": "marketing",
+        "loading": -0.19488443813944958
+      },
+      {
+        "term": "security",
+        "loading": -0.15989254359432015
+      },
+      {
+        "term": "manufacturing",
+        "loading": -0.14311945206630028
+      },
+      {
+        "term": "product",
+        "loading": -0.14228448767548582
+      },
+      {
+        "term": "construction",
+        "loading": 0.12247180614067313
+      },
+      {
+        "term": "client",
+        "loading": 0.11395223568412045
+      },
+      {
+        "term": "care",
+        "loading": 0.10933624905854639
+      },
+      {
+        "term": "work",
+        "loading": 0.10504286628353297
+      }
+    ]
+  },
+  {
+    "component": 10,
+    "terms": [
+      {
+        "term": "security",
+        "loading": 0.29547557316725687
+      },
+      {
+        "term": "product",
+        "loading": -0.28044119009162255
+      },
+      {
+        "term": "quality",
+        "loading": -0.23200514737244896
+      },
+      {
+        "term": "manufacturing",
+        "loading": -0.19282607737602928
+      },
+      {
+        "term": "ai",
+        "loading": -0.19152785979429718
+      },
+      {
+        "term": "cloud",
+        "loading": 0.16524591106135494
+      },
+      {
+        "term": "accounting",
+        "loading": -0.16078175288565583
+      },
+      {
+        "term": "project",
+        "loading": 0.15682542061915053
+      },
+      {
+        "term": "network",
+        "loading": 0.13677234948645975
+      },
+      {
+        "term": "financial",
+        "loading": -0.13611203909191025
+      }
+    ]
+  },
+  {
+    "component": 11,
+    "terms": [
+      {
+        "term": "care",
+        "loading": 0.24127240690457835
+      },
+      {
+        "term": "sales",
+        "loading": -0.20304920087763764
+      },
+      {
+        "term": "security",
+        "loading": 0.19820505659106702
+      },
+      {
+        "term": "patient",
+        "loading": 0.1950609038999051
+      },
+      {
+        "term": "health",
+        "loading": 0.18793327482843974
+      },
+      {
+        "term": "clinical",
+        "loading": 0.1836955587735632
+      },
+      {
+        "term": "accounting",
+        "loading": -0.1476620773743429
+      },
+      {
+        "term": "patients",
+        "loading": 0.14483110677216182
+      },
+      {
+        "term": "healthcare",
+        "loading": 0.131432866062615
+      },
+      {
+        "term": "construction",
+        "loading": -0.13083318756969284
+      }
+    ]
+  },
+  {
+    "component": 12,
+    "terms": [
+      {
+        "term": "security",
+        "loading": 0.2675584525308988
+      },
+      {
+        "term": "patient",
+        "loading": -0.23098485244427067
+      },
+      {
+        "term": "clinical",
+        "loading": -0.2284326179610855
+      },
+      {
+        "term": "care",
+        "loading": -0.22680835154857953
+      },
+      {
+        "term": "sales",
+        "loading": -0.21604533214417618
+      },
+      {
+        "term": "design",
+        "loading": -0.18979523363439438
+      },
+      {
+        "term": "ai",
+        "loading": 0.18902076107054644
+      },
+      {
+        "term": "patients",
+        "loading": -0.16599700643310425
+      },
+      {
+        "term": "health",
+        "loading": -0.1655085155290163
+      },
+      {
+        "term": "customer",
+        "loading": 0.16030127352846554
+      }
+    ]
+  },
+  {
+    "component": 13,
+    "terms": [
+      {
+        "term": "security",
+        "loading": 0.32409355411062296
+      },
+      {
+        "term": "sales",
+        "loading": 0.2826671908672074
+      },
+      {
+        "term": "customer",
+        "loading": -0.23474937618940628
+      },
+      {
+        "term": "ai",
+        "loading": 0.23378889294338215
+      },
+      {
+        "term": "product",
+        "loading": -0.2216595628004888
+      },
+      {
+        "term": "quality",
+        "loading": 0.15905661962728002
+      },
+      {
+        "term": "marketing",
+        "loading": 0.15174449682905916
+      },
+      {
+        "term": "service",
+        "loading": -0.12310991171266562
+      },
+      {
+        "term": "cloud",
+        "loading": 0.12016362249274097
+      },
+      {
+        "term": "client",
+        "loading": -0.11592724651415369
+      }
+    ]
+  },
+  {
+    "component": 14,
+    "terms": [
+      {
+        "term": "engineering",
+        "loading": 0.22540148787557185
+      },
+      {
+        "term": "ai",
+        "loading": -0.1897297221883688
+      },
+      {
+        "term": "design",
+        "loading": 0.1800962781197154
+      },
+      {
+        "term": "construction",
+        "loading": 0.16602435371412647
+      },
+      {
+        "term": "data",
+        "loading": 0.15959985429743107
+      },
+      {
+        "term": "business",
+        "loading": -0.136228759680505
+      },
+      {
+        "term": "equipment",
+        "loading": 0.12616972918909225
+      },
+      {
+        "term": "coding",
+        "loading": -0.12445724349714225
+      },
+      {
+        "term": "quality",
+        "loading": -0.12321275629917003
+      },
+      {
+        "term": "electrical",
+        "loading": 0.12037995600266628
+      }
+    ]
+  },
+  {
+    "component": 15,
+    "terms": [
+      {
+        "term": "customer",
+        "loading": 0.3527189747976459
+      },
+      {
+        "term": "accounting",
+        "loading": 0.24982148723346662
+      },
+      {
+        "term": "product",
+        "loading": 0.24055375786310645
+      },
+      {
+        "term": "hr",
+        "loading": -0.23602333540842743
+      },
+      {
+        "term": "project",
+        "loading": 0.21304048292710184
+      },
+      {
+        "term": "patient",
+        "loading": 0.16260957098357207
+      },
+      {
+        "term": "customers",
+        "loading": 0.15797004073435814
+      },
+      {
+        "term": "security",
+        "loading": 0.15497589045695523
+      },
+      {
+        "term": "care",
+        "loading": 0.152572906383218
+      },
+      {
+        "term": "business",
+        "loading": -0.13822894037795777
+      }
+    ]
+  }
+]

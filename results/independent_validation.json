@@ -1,0 +1,83 @@
+{
+  "status": "passed",
+  "n_rows": 23319,
+  "n_folds": 5,
+  "n_models": 9,
+  "recomputed_metrics": {
+    "constant_exposure": {
+      "n": 23319,
+      "mae": 6.3257436571381715,
+      "rmse": 33.19100960369116,
+      "mean_poisson_deviance": 5.931060366839654,
+      "poisson_deviance_sum": 138306.3966943339
+    },
+    "constant_mean": {
+      "n": 23319,
+      "mae": 12.287687603864338,
+      "rmse": 29.048038272343106,
+      "mean_poisson_deviance": 25.681165924676208,
+      "poisson_deviance_sum": 598859.1081975244
+    },
+    "lasso_poisson": {
+      "n": 23319,
+      "mae": 4.973938682111978,
+      "rmse": 22.90591435198876,
+      "mean_poisson_deviance": 3.9928581267482532,
+      "poisson_deviance_sum": 93109.45865764252
+    },
+    "poisson": {
+      "n": 23319,
+      "mae": 4.987380722060366,
+      "rmse": 23.004096185172713,
+      "mean_poisson_deviance": 4.017874649712296,
+      "poisson_deviance_sum": 93692.81895664103
+    },
+    "poisson_legacy_matched_learned": {
+      "n": 23319,
+      "mae": 4.987380722060367,
+      "rmse": 23.004096185172735,
+      "mean_poisson_deviance": 4.017874649712298,
+      "poisson_deviance_sum": 93692.81895664107
+    },
+    "poisson_legacy_offset": {
+      "n": 23319,
+      "mae": 6.082909674930574,
+      "rmse": 29.73161375065688,
+      "mean_poisson_deviance": 6.0249148170058895,
+      "poisson_deviance_sum": 140494.98861776033
+    },
+    "poisson_no_svd": {
+      "n": 23319,
+      "mae": 5.110050973254014,
+      "rmse": 24.004537061986593,
+      "mean_poisson_deviance": 4.174835599543698,
+      "poisson_deviance_sum": 97352.9913457595
+    },
+    "poisson_views_offset": {
+      "n": 23319,
+      "mae": 4.98446372297353,
+      "rmse": 26.19138353330264,
+      "mean_poisson_deviance": 4.119052925584306,
+      "poisson_deviance_sum": 96052.19517170043
+    },
+    "xgboost": {
+      "n": 23319,
+      "mae": 4.106053789244533,
+      "rmse": 15.530135863055605,
+      "mean_poisson_deviance": 3.026082925357277,
+      "poisson_deviance_sum": 70565.22773640635
+    }
+  },
+  "rtol": 1e-09,
+  "atol": 1e-08,
+  "oof_sha256": "31a69fab51c4c5c391521ab69b1d0983acc92b50927e9aa251e94f34d159e6b4",
+  "checks": [
+    "unique complete row_id coverage",
+    "saved outer fold alignment",
+    "common primary-model observations",
+    "finite positive predictions",
+    "independent pooled and fold metrics",
+    "matched legacy sensitivity observations"
+  ],
+  "scope": "Saved-result arithmetic and coverage; preprocessing isolation is checked separately."
+}

@@ -1,0 +1,50 @@
+cff-version: 1.2.0
+message: >-
+  Please cite this project when using its software or analysis, and separately
+  cite the Kaggle dataset listed under references. The MIT software license
+  does not replace the data and analytical-output license in docs/DATA_LICENSE.md.
+type: software
+title: "LinkedIn Job Posting Analytics"
+authors:
+  - family-names: Lu
+    given-names: Junwei
+version: "1.0.0"
+url: "https://github.com/Junwlu/linkedin-job-posting-analytics"
+repository-code: "https://github.com/Junwlu/linkedin-job-posting-analytics"
+license: MIT
+abstract: >-
+  A source-audited reanalysis of recorded LinkedIn application counts from
+  Kaggle version 13, with training-only feature construction, shared-fold
+  evaluation, exposure sensitivity analyses, and explicit measurement limits.
+keywords:
+  - job postings
+  - reproducible analysis
+  - Poisson regression
+  - data quality
+preferred-citation:
+  type: software
+  title: "LinkedIn Job Posting Analytics"
+  authors:
+    - family-names: Lu
+      given-names: Junwei
+  year: 2026
+  version: "1.0.0"
+  url: "https://github.com/Junwlu/linkedin-job-posting-analytics"
+references:
+  - type: data
+    title: "LinkedIn Job Postings (2023 - 2024)"
+    authors:
+      - family-names: Koneru
+        given-names: Arsh
+    year: 2024
+    version: "13"
+    date-released: "2024-08-19"
+    date-accessed: "2026-10-08"
+    publisher:
+      name: Kaggle
+    url: "https://www.kaggle.com/datasets/arshkon/linkedin-job-postings"
+    license: CC-BY-SA-4.0
+    notes: >-
+      Kaggle publisher account arshkon; the data card additionally credits
+      @zoeyyuzou for data collection. This is a separate source-data citation,
+      not a claim that Junwei Lu created the dataset.

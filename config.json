@@ -1,0 +1,20 @@
+{
+  "seed": 20251201,
+  "n_splits": 5,
+  "inner_fraction": 0.2,
+  "max_text_features": 1500,
+  "n_svd": 15,
+  "min_text_df": 5,
+  "min_category_count": 20,
+  "alpha_grid": [0.001, 0.01, 0.1, 1.0],
+  "max_boost_rounds": 800,
+  "early_stopping_rounds": 40,
+  "n_threads": 4,
+  "glm_max_iter": 200,
+  "glm_gradient_tol": 0.00001,
+  "xgb_max_depth": 4,
+  "xgb_eta": 0.05,
+  "model_variants": [
+    "main", "no_svd", "views_offset", "legacy_offset"
+  ]
+}

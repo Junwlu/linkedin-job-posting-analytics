@@ -1,0 +1,73 @@
+feature,coefficient,irr,selected,unit
+application_type__ComplexOnsiteApply,0.27682085478258,1.3189300698553517,True,ComplexOnsiteApply vs OffsiteApply
+application_type__SimpleOnsiteApply,0.2661503318404735,1.3049312166536553,True,SimpleOnsiteApply vs OffsiteApply
+application_type____Other__,-1.0995963995779063,0.3330054577228454,True,__Other__ vs OffsiteApply
+formatted_work_type__Contract,-0.03626523525297559,0.9643844707989475,True,Contract vs Full-time
+formatted_work_type__Internship,-0.04229974576831652,0.9585824064851263,True,Internship vs Full-time
+formatted_work_type__Other,0.07130177394865402,1.0739052536031939,True,Other vs Full-time
+formatted_work_type__Part-time,-0.04985439134161754,0.9513679418254457,True,Part-time vs Full-time
+formatted_work_type__Temporary,-0.027335037236732522,0.9730351838874087,True,Temporary vs Full-time
+formatted_work_type__Volunteer,-0.46768449400947,0.6264511415690386,True,Volunteer vs Full-time
+formatted_experience_level__Associate,0.050623929803790484,1.0519272204113017,True,Associate vs Mid-Senior level
+formatted_experience_level__Director,-0.08353702919154546,0.9198570244786388,True,Director vs Mid-Senior level
+formatted_experience_level__Entry_level,-0.09506134280168153,0.9093171526955803,True,Entry level vs Mid-Senior level
+formatted_experience_level__Executive,-0.36540308066762167,0.6939168900153677,True,Executive vs Mid-Senior level
+formatted_experience_level__Internship,0.24737085111479074,1.2806539566721271,True,Internship vs Mid-Senior level
+formatted_experience_level__Unknown,-0.10139828983784067,0.9035730772328749,True,Unknown vs Mid-Senior level
+remote_allowed__Remote,0.32941028379779774,1.3901480938392954,True,Remote vs Unknown
+region__Midwest,-0.04456141863586259,0.9564168564710223,True,Midwest vs South
+region__Northeast,-0.022391930467918153,0.9778569080218279,True,Northeast vs South
+region__Other,-0.030966663390717207,0.9695078926431242,True,Other vs South
+region__US-Unknown,0.0,1.0,False,US-Unknown vs South
+region__West,-0.05485688073848477,0.9466206179028425,True,West vs South
+seniority__associate,0.03156409593404374,1.0320675248076743,True,associate vs Unknown
+seniority__cxo,0.0381789739325918,1.0389171553292917,True,cxo vs Unknown
+seniority__director,-0.12332083558409408,0.8839800048183319,True,director vs Unknown
+seniority__intern,0.28011817214744433,1.3232861786675991,True,intern vs Unknown
+seniority__junior,0.05886319000339106,1.0606301260098698,True,junior vs Unknown
+seniority__lead,-0.22904428934200166,0.7952933097076951,True,lead vs Unknown
+seniority__senior,0.02517599686558515,1.0254955886523247,True,senior vs Unknown
+seniority__vp,-0.1392142716184359,0.8700415832658555,True,vp vs Unknown
+role_family__Analytics,-0.05329658275385378,0.9480987810327567,True,Analytics vs Other
+role_family__Cloud,-0.019048417142161652,0.9811318574921696,True,Cloud vs Other
+role_family__Data,0.07925172392876034,1.0824767730837688,True,Data vs Other
+role_family__Engineering,0.018886613198837502,1.0190660934218085,True,Engineering vs Other
+role_family__Marketing,0.0,1.0,False,Marketing vs Other
+role_family__Nursing,-0.23694059292441902,0.7890381610749716,True,Nursing vs Other
+role_family__Sales,0.2403098052189908,1.2716430509558976,True,Sales vs Other
+salary_band__High,-0.009178170344321,0.9908638204965532,True,High vs Med
+salary_band__Low,0.034361056577374115,1.0349582177485266,True,Low vs Med
+salary_band__Unknown,-0.07195150406218567,0.9305760238739184,True,Unknown vs Med
+title_len_10,-0.03661481448107563,0.9640474009397972,True,10 title characters
+desc_len_1000,-0.046836802401147175,0.9542431150687674,True,1000 description characters
+kw_data,0.2598432252326139,1.2967267766904722,True,0 to 1 in title
+kw_analyst,0.2513002761222156,1.2856960902104368,True,0 to 1 in title
+kw_engineer,0.2869845961595488,1.332403689183755,True,0 to 1 in title
+kw_developer,0.20800780055704593,1.2312227737348915,True,0 to 1 in title
+kw_manager,-0.04065988757421046,0.9601556352826423,True,0 to 1 in title
+kw_nurse,-0.1651166874082969,0.8477947713412897,True,0 to 1 in title
+kw_sales,0.0038022045319303834,1.0038094420815558,True,0 to 1 in title
+kw_marketing,0.0,1.0,False,0 to 1 in title
+kw_python,0.02416197426676052,1.024456240001005,True,0 to 1 in title
+kw_sql,0.365403673805455,1.4410956233042014,True,0 to 1 in title
+kw_java,0.35738206050906995,1.4295819523374258,True,0 to 1 in title
+kw_cloud,0.09801118938998014,1.102975126658291,True,0 to 1 in title
+kw_aws,0.12185539809285849,1.1295907489934471,True,0 to 1 in title
+kw_azure,0.21745957974501956,1.2429151895435013,True,0 to 1 in title
+kw_gcp,0.00821435433994917,1.0082481847166838,True,0 to 1 in title
+log1p_views,0.9321191189229256,2.5398857988142827,True,log(1 + views)
+desc_svd_1,0.3239827980258251,1.3826235230607764,True,one SVD score unit
+desc_svd_2,-0.9109352088096504,0.40214795580532714,True,one SVD score unit
+desc_svd_3,0.33235337136244825,1.3942454478856414,True,one SVD score unit
+desc_svd_4,-0.5381083528559008,0.5838516497315253,True,one SVD score unit
+desc_svd_5,0.1277477381551137,1.1362663298996134,True,one SVD score unit
+desc_svd_6,-0.705024836799324,0.49409630233303686,True,one SVD score unit
+desc_svd_7,-0.49043078702679405,0.6123625395181939,True,one SVD score unit
+desc_svd_8,0.0,1.0,False,one SVD score unit
+desc_svd_9,0.2210395366367981,1.2473727465123958,True,one SVD score unit
+desc_svd_10,0.2142138793208697,1.238887598897696,True,one SVD score unit
+desc_svd_11,0.5287754545019966,1.69685316197326,True,one SVD score unit
+desc_svd_12,0.0,1.0,False,one SVD score unit
+desc_svd_13,-0.46757653711697506,0.6265187749382608,True,one SVD score unit
+desc_svd_14,-0.4673240845446199,0.6266769611810445,True,one SVD score unit
+desc_svd_15,0.4164538779752168,1.5165740522432154,True,one SVD score unit

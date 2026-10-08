@@ -1,0 +1,5 @@
+# Preserve result/config bytes: the audit records their SHA-256 fingerprints.
+# Disabling newline conversion keeps verification portable across Git clients.
+* -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+*.pdf binary
+*.png binary

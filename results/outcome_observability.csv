@@ -1,0 +1,5 @@
+application_type,raw_rows,observed_applies,observed_fraction
+ComplexOnsiteApply,31049.0,11638.0,0.3748268865341879
+OffsiteApply,84607.0,9734.0,0.11504958218587115
+SimpleOnsiteApply,8192.0,1947.0,0.2376708984375
+UnknownApply,1.0,1.0,1.0

@@ -1,0 +1,216 @@
+{
+  "source_name": "postings.csv.zip",
+  "zip_member": "postings.csv",
+  "source_sha256": "f0cf1c6f4e2c61a3340bb0b688481817a88df0023e39997098ad3436de67dce1",
+  "raw_dataset_sha256": "de33f27c8d1b226014e0cede003404e9b0acb66db718671fda9b3e3538eca6ea",
+  "matches_original_v13_fingerprint": true,
+  "raw_columns": [
+    "job_id",
+    "company_name",
+    "title",
+    "description",
+    "max_salary",
+    "pay_period",
+    "location",
+    "company_id",
+    "views",
+    "med_salary",
+    "min_salary",
+    "formatted_work_type",
+    "applies",
+    "original_listed_time",
+    "remote_allowed",
+    "job_posting_url",
+    "application_url",
+    "application_type",
+    "expiry",
+    "closed_time",
+    "formatted_experience_level",
+    "skills_desc",
+    "listed_time",
+    "posting_domain",
+    "sponsored",
+    "work_type",
+    "currency",
+    "compensation_type",
+    "normalized_salary",
+    "zip_code",
+    "fips"
+  ],
+  "raw_column_count": 31,
+  "has_scrape_timestamp": false,
+  "raw_rows": 123849,
+  "raw_applies_missing": 100529,
+  "raw_applies_invalid_nonmissing": 0,
+  "raw_views_missing": 1689,
+  "raw_views_invalid_nonmissing": 0,
+  "invalid_or_missing_job_id_rows": 0,
+  "raw_missing_by_column": {
+    "job_id": 0,
+    "company_name": 1719,
+    "title": 0,
+    "description": 7,
+    "max_salary": 94056,
+    "pay_period": 87776,
+    "location": 0,
+    "company_id": 1717,
+    "views": 1689,
+    "med_salary": 117569,
+    "min_salary": 94056,
+    "formatted_work_type": 0,
+    "applies": 100529,
+    "original_listed_time": 0,
+    "remote_allowed": 108603,
+    "job_posting_url": 0,
+    "application_url": 36665,
+    "application_type": 0,
+    "expiry": 0,
+    "closed_time": 122776,
+    "formatted_experience_level": 29409,
+    "skills_desc": 121410,
+    "listed_time": 0,
+    "posting_domain": 39968,
+    "sponsored": 0,
+    "work_type": 0,
+    "currency": 87776,
+    "compensation_type": 87776,
+    "normalized_salary": 87776,
+    "zip_code": 20872,
+    "fips": 27415
+  },
+  "raw_unique_valid_job_ids": 123849,
+  "raw_duplicate_job_id_extra_rows": 0,
+  "applies_observability_by_application_type": {
+    "ComplexOnsiteApply": {
+      "raw_rows": 31049,
+      "observed_applies": 11638,
+      "observed_fraction": 0.3748268865341879
+    },
+    "OffsiteApply": {
+      "raw_rows": 84607,
+      "observed_applies": 9734,
+      "observed_fraction": 0.11504958218587115
+    },
+    "SimpleOnsiteApply": {
+      "raw_rows": 8192,
+      "observed_applies": 1947,
+      "observed_fraction": 0.2376708984375
+    },
+    "UnknownApply": {
+      "raw_rows": 1,
+      "observed_applies": 1,
+      "observed_fraction": 1.0
+    }
+  },
+  "observed_rows_exact_duplicates_removed": 0,
+  "category_unknown_counts": {
+    "application_type": 1,
+    "formatted_work_type": 0,
+    "formatted_experience_level": 6683,
+    "remote_allowed": 16905,
+    "sponsored": 0
+  },
+  "observed_salary_values_excluded_for_currency_or_validity": 2,
+  "clean_observed_count_rows": 23320,
+  "main_model_rows": 23319,
+  "observed_applies_missing_or_invalid_views": 1,
+  "observed_applies_zero": 0,
+  "views_zero_applies_positive": 0,
+  "applies_greater_than_views": 0,
+  "legacy_days_valid_rows": 23320,
+  "legacy_days_clipped_to_one": 0,
+  "main_offset_definition": "0; log1p(views) enters the primary model as a covariate with an estimated coefficient",
+  "reach_proxy_offset_definition": "log(1 + views); sensitivity-only reach proxy, not person-time or binomial trials",
+  "legacy_window_definition": "max((min(valid closed_time, valid expiry) - listed_time) / 86400000, 1), only positive valid intervals; planned/end-window sensitivity proxy, not observed time at risk",
+  "population_limitation": "Conditioned on observed application counts. Missing is not zero; all observed outcomes in the pinned source are positive. No scrape timestamp is available to establish observation duration.",
+  "row_id_unique": true,
+  "retained_category_counts": {
+    "application_type": {
+      "ComplexOnsiteApply": 11638,
+      "OffsiteApply": 9734,
+      "SimpleOnsiteApply": 1947,
+      "Unknown": 1
+    },
+    "formatted_work_type": {
+      "Full-time": 17438,
+      "Contract": 4623,
+      "Part-time": 674,
+      "Internship": 364,
+      "Temporary": 134,
+      "Other": 56,
+      "Volunteer": 31
+    },
+    "formatted_experience_level": {
+      "Mid-Senior level": 8661,
+      "Unknown": 6683,
+      "Entry level": 3466,
+      "Associate": 2911,
+      "Director": 939,
+      "Internship": 340,
+      "Executive": 320
+    },
+    "remote_allowed": {
+      "Unknown": 16905,
+      "Remote": 6415
+    },
+    "sponsored": {
+      "NotSponsored": 23320
+    }
+  },
+  "exclusion_flow": [
+    {
+      "stage": "raw_source",
+      "rows": 123849
+    },
+    {
+      "stage": "valid_observed_application_count",
+      "rows": 23320
+    },
+    {
+      "stage": "valid_identifier_before_deduplication",
+      "rows": 23320
+    },
+    {
+      "stage": "unique_observed_count_records",
+      "rows": 23320
+    },
+    {
+      "stage": "common_valid_views_cohort",
+      "rows": 23319
+    }
+  ],
+  "returned_rows": 23319,
+  "main_category_counts": {
+    "application_type": {
+      "ComplexOnsiteApply": 11637,
+      "OffsiteApply": 9734,
+      "SimpleOnsiteApply": 1947,
+      "Unknown": 1
+    },
+    "formatted_work_type": {
+      "Full-time": 17438,
+      "Contract": 4622,
+      "Part-time": 674,
+      "Internship": 364,
+      "Temporary": 134,
+      "Other": 56,
+      "Volunteer": 31
+    },
+    "formatted_experience_level": {
+      "Mid-Senior level": 8660,
+      "Unknown": 6683,
+      "Entry level": 3466,
+      "Associate": 2911,
+      "Director": 939,
+      "Internship": 340,
+      "Executive": 320
+    },
+    "remote_allowed": {
+      "Unknown": 16904,
+      "Remote": 6415
+    },
+    "sponsored": {
+      "NotSponsored": 23319
+    }
+  }
+}

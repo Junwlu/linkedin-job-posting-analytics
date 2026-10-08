@@ -1,0 +1,735 @@
+{
+  "n_training_rows": 23319,
+  "n_features": 72,
+  "salary_cutoffs": [
+    75000.0,
+    122502.24000000002
+  ],
+  "categories": {
+    "application_type": {
+      "kept": [
+        "ComplexOnsiteApply",
+        "OffsiteApply",
+        "SimpleOnsiteApply"
+      ],
+      "levels": [
+        "ComplexOnsiteApply",
+        "OffsiteApply",
+        "SimpleOnsiteApply",
+        "__Other__"
+      ],
+      "reference": "OffsiteApply",
+      "preferred_reference": "OffsiteApply",
+      "reference_fallback": false,
+      "training_counts": {
+        "ComplexOnsiteApply": 11637,
+        "OffsiteApply": 9734,
+        "SimpleOnsiteApply": 1947,
+        "Unknown": 1
+      }
+    },
+    "formatted_work_type": {
+      "kept": [
+        "Contract",
+        "Full-time",
+        "Internship",
+        "Other",
+        "Part-time",
+        "Temporary",
+        "Volunteer"
+      ],
+      "levels": [
+        "Contract",
+        "Full-time",
+        "Internship",
+        "Other",
+        "Part-time",
+        "Temporary",
+        "Volunteer"
+      ],
+      "reference": "Full-time",
+      "preferred_reference": "Full-time",
+      "reference_fallback": false,
+      "training_counts": {
+        "Full-time": 17438,
+        "Contract": 4622,
+        "Part-time": 674,
+        "Internship": 364,
+        "Temporary": 134,
+        "Other": 56,
+        "Volunteer": 31
+      }
+    },
+    "formatted_experience_level": {
+      "kept": [
+        "Associate",
+        "Director",
+        "Entry level",
+        "Executive",
+        "Internship",
+        "Mid-Senior level",
+        "Unknown"
+      ],
+      "levels": [
+        "Associate",
+        "Director",
+        "Entry level",
+        "Executive",
+        "Internship",
+        "Mid-Senior level",
+        "Unknown"
+      ],
+      "reference": "Mid-Senior level",
+      "preferred_reference": "Mid-Senior level",
+      "reference_fallback": false,
+      "training_counts": {
+        "Mid-Senior level": 8660,
+        "Unknown": 6683,
+        "Entry level": 3466,
+        "Associate": 2911,
+        "Director": 939,
+        "Internship": 340,
+        "Executive": 320
+      }
+    },
+    "remote_allowed": {
+      "kept": [
+        "Remote",
+        "Unknown"
+      ],
+      "levels": [
+        "Remote",
+        "Unknown"
+      ],
+      "reference": "Unknown",
+      "preferred_reference": "Unknown",
+      "reference_fallback": false,
+      "training_counts": {
+        "Unknown": 16904,
+        "Remote": 6415
+      }
+    },
+    "sponsored": {
+      "kept": [
+        "NotSponsored"
+      ],
+      "levels": [
+        "NotSponsored"
+      ],
+      "reference": "NotSponsored",
+      "preferred_reference": "NotSponsored",
+      "reference_fallback": false,
+      "training_counts": {
+        "NotSponsored": 23319
+      }
+    },
+    "region": {
+      "kept": [
+        "Midwest",
+        "Northeast",
+        "Other",
+        "South",
+        "US-Unknown",
+        "West"
+      ],
+      "levels": [
+        "Midwest",
+        "Northeast",
+        "Other",
+        "South",
+        "US-Unknown",
+        "West"
+      ],
+      "reference": "South",
+      "preferred_reference": "South",
+      "reference_fallback": false,
+      "training_counts": {
+        "South": 6110,
+        "US-Unknown": 3930,
+        "West": 3929,
+        "Northeast": 3560,
+        "Other": 3029,
+        "Midwest": 2761
+      }
+    },
+    "seniority": {
+      "kept": [
+        "Unknown",
+        "associate",
+        "cxo",
+        "director",
+        "intern",
+        "junior",
+        "lead",
+        "senior",
+        "vp"
+      ],
+      "levels": [
+        "Unknown",
+        "associate",
+        "cxo",
+        "director",
+        "intern",
+        "junior",
+        "lead",
+        "senior",
+        "vp"
+      ],
+      "reference": "Unknown",
+      "preferred_reference": "Unknown",
+      "reference_fallback": false,
+      "training_counts": {
+        "Unknown": 17010,
+        "senior": 2730,
+        "director": 1026,
+        "associate": 723,
+        "lead": 685,
+        "intern": 548,
+        "vp": 285,
+        "cxo": 157,
+        "junior": 155
+      }
+    },
+    "role_family": {
+      "kept": [
+        "Analytics",
+        "Cloud",
+        "Data",
+        "Engineering",
+        "Marketing",
+        "Nursing",
+        "Other",
+        "Sales"
+      ],
+      "levels": [
+        "Analytics",
+        "Cloud",
+        "Data",
+        "Engineering",
+        "Marketing",
+        "Nursing",
+        "Other",
+        "Sales"
+      ],
+      "reference": "Other",
+      "preferred_reference": "Other",
+      "reference_fallback": false,
+      "training_counts": {
+        "Other": 13619,
+        "Engineering": 4349,
+        "Analytics": 1584,
+        "Data": 1466,
+        "Sales": 1376,
+        "Marketing": 642,
+        "Cloud": 165,
+        "Nursing": 118
+      }
+    },
+    "salary_band": {
+      "kept": [
+        "High",
+        "Low",
+        "Med",
+        "Unknown"
+      ],
+      "levels": [
+        "High",
+        "Low",
+        "Med",
+        "Unknown"
+      ],
+      "reference": "Med",
+      "preferred_reference": "Med",
+      "reference_fallback": false,
+      "training_counts": {
+        "Unknown": 14497,
+        "Med": 2990,
+        "Low": 2921,
+        "High": 2911
+      }
+    }
+  },
+  "feature_metadata": [
+    {
+      "name": "application_type__ComplexOnsiteApply",
+      "kind": "category",
+      "column": "application_type",
+      "level": "ComplexOnsiteApply",
+      "reference": "OffsiteApply",
+      "unit": "ComplexOnsiteApply vs OffsiteApply"
+    },
+    {
+      "name": "application_type__SimpleOnsiteApply",
+      "kind": "category",
+      "column": "application_type",
+      "level": "SimpleOnsiteApply",
+      "reference": "OffsiteApply",
+      "unit": "SimpleOnsiteApply vs OffsiteApply"
+    },
+    {
+      "name": "application_type____Other__",
+      "kind": "category",
+      "column": "application_type",
+      "level": "__Other__",
+      "reference": "OffsiteApply",
+      "unit": "__Other__ vs OffsiteApply"
+    },
+    {
+      "name": "formatted_work_type__Contract",
+      "kind": "category",
+      "column": "formatted_work_type",
+      "level": "Contract",
+      "reference": "Full-time",
+      "unit": "Contract vs Full-time"
+    },
+    {
+      "name": "formatted_work_type__Internship",
+      "kind": "category",
+      "column": "formatted_work_type",
+      "level": "Internship",
+      "reference": "Full-time",
+      "unit": "Internship vs Full-time"
+    },
+    {
+      "name": "formatted_work_type__Other",
+      "kind": "category",
+      "column": "formatted_work_type",
+      "level": "Other",
+      "reference": "Full-time",
+      "unit": "Other vs Full-time"
+    },
+    {
+      "name": "formatted_work_type__Part-time",
+      "kind": "category",
+      "column": "formatted_work_type",
+      "level": "Part-time",
+      "reference": "Full-time",
+      "unit": "Part-time vs Full-time"
+    },
+    {
+      "name": "formatted_work_type__Temporary",
+      "kind": "category",
+      "column": "formatted_work_type",
+      "level": "Temporary",
+      "reference": "Full-time",
+      "unit": "Temporary vs Full-time"
+    },
+    {
+      "name": "formatted_work_type__Volunteer",
+      "kind": "category",
+      "column": "formatted_work_type",
+      "level": "Volunteer",
+      "reference": "Full-time",
+      "unit": "Volunteer vs Full-time"
+    },
+    {
+      "name": "formatted_experience_level__Associate",
+      "kind": "category",
+      "column": "formatted_experience_level",
+      "level": "Associate",
+      "reference": "Mid-Senior level",
+      "unit": "Associate vs Mid-Senior level"
+    },
+    {
+      "name": "formatted_experience_level__Director",
+      "kind": "category",
+      "column": "formatted_experience_level",
+      "level": "Director",
+      "reference": "Mid-Senior level",
+      "unit": "Director vs Mid-Senior level"
+    },
+    {
+      "name": "formatted_experience_level__Entry_level",
+      "kind": "category",
+      "column": "formatted_experience_level",
+      "level": "Entry level",
+      "reference": "Mid-Senior level",
+      "unit": "Entry level vs Mid-Senior level"
+    },
+    {
+      "name": "formatted_experience_level__Executive",
+      "kind": "category",
+      "column": "formatted_experience_level",
+      "level": "Executive",
+      "reference": "Mid-Senior level",
+      "unit": "Executive vs Mid-Senior level"
+    },
+    {
+      "name": "formatted_experience_level__Internship",
+      "kind": "category",
+      "column": "formatted_experience_level",
+      "level": "Internship",
+      "reference": "Mid-Senior level",
+      "unit": "Internship vs Mid-Senior level"
+    },
+    {
+      "name": "formatted_experience_level__Unknown",
+      "kind": "category",
+      "column": "formatted_experience_level",
+      "level": "Unknown",
+      "reference": "Mid-Senior level",
+      "unit": "Unknown vs Mid-Senior level"
+    },
+    {
+      "name": "remote_allowed__Remote",
+      "kind": "category",
+      "column": "remote_allowed",
+      "level": "Remote",
+      "reference": "Unknown",
+      "unit": "Remote vs Unknown"
+    },
+    {
+      "name": "region__Midwest",
+      "kind": "category",
+      "column": "region",
+      "level": "Midwest",
+      "reference": "South",
+      "unit": "Midwest vs South"
+    },
+    {
+      "name": "region__Northeast",
+      "kind": "category",
+      "column": "region",
+      "level": "Northeast",
+      "reference": "South",
+      "unit": "Northeast vs South"
+    },
+    {
+      "name": "region__Other",
+      "kind": "category",
+      "column": "region",
+      "level": "Other",
+      "reference": "South",
+      "unit": "Other vs South"
+    },
+    {
+      "name": "region__US-Unknown",
+      "kind": "category",
+      "column": "region",
+      "level": "US-Unknown",
+      "reference": "South",
+      "unit": "US-Unknown vs South"
+    },
+    {
+      "name": "region__West",
+      "kind": "category",
+      "column": "region",
+      "level": "West",
+      "reference": "South",
+      "unit": "West vs South"
+    },
+    {
+      "name": "seniority__associate",
+      "kind": "category",
+      "column": "seniority",
+      "level": "associate",
+      "reference": "Unknown",
+      "unit": "associate vs Unknown"
+    },
+    {
+      "name": "seniority__cxo",
+      "kind": "category",
+      "column": "seniority",
+      "level": "cxo",
+      "reference": "Unknown",
+      "unit": "cxo vs Unknown"
+    },
+    {
+      "name": "seniority__director",
+      "kind": "category",
+      "column": "seniority",
+      "level": "director",
+      "reference": "Unknown",
+      "unit": "director vs Unknown"
+    },
+    {
+      "name": "seniority__intern",
+      "kind": "category",
+      "column": "seniority",
+      "level": "intern",
+      "reference": "Unknown",
+      "unit": "intern vs Unknown"
+    },
+    {
+      "name": "seniority__junior",
+      "kind": "category",
+      "column": "seniority",
+      "level": "junior",
+      "reference": "Unknown",
+      "unit": "junior vs Unknown"
+    },
+    {
+      "name": "seniority__lead",
+      "kind": "category",
+      "column": "seniority",
+      "level": "lead",
+      "reference": "Unknown",
+      "unit": "lead vs Unknown"
+    },
+    {
+      "name": "seniority__senior",
+      "kind": "category",
+      "column": "seniority",
+      "level": "senior",
+      "reference": "Unknown",
+      "unit": "senior vs Unknown"
+    },
+    {
+      "name": "seniority__vp",
+      "kind": "category",
+      "column": "seniority",
+      "level": "vp",
+      "reference": "Unknown",
+      "unit": "vp vs Unknown"
+    },
+    {
+      "name": "role_family__Analytics",
+      "kind": "category",
+      "column": "role_family",
+      "level": "Analytics",
+      "reference": "Other",
+      "unit": "Analytics vs Other"
+    },
+    {
+      "name": "role_family__Cloud",
+      "kind": "category",
+      "column": "role_family",
+      "level": "Cloud",
+      "reference": "Other",
+      "unit": "Cloud vs Other"
+    },
+    {
+      "name": "role_family__Data",
+      "kind": "category",
+      "column": "role_family",
+      "level": "Data",
+      "reference": "Other",
+      "unit": "Data vs Other"
+    },
+    {
+      "name": "role_family__Engineering",
+      "kind": "category",
+      "column": "role_family",
+      "level": "Engineering",
+      "reference": "Other",
+      "unit": "Engineering vs Other"
+    },
+    {
+      "name": "role_family__Marketing",
+      "kind": "category",
+      "column": "role_family",
+      "level": "Marketing",
+      "reference": "Other",
+      "unit": "Marketing vs Other"
+    },
+    {
+      "name": "role_family__Nursing",
+      "kind": "category",
+      "column": "role_family",
+      "level": "Nursing",
+      "reference": "Other",
+      "unit": "Nursing vs Other"
+    },
+    {
+      "name": "role_family__Sales",
+      "kind": "category",
+      "column": "role_family",
+      "level": "Sales",
+      "reference": "Other",
+      "unit": "Sales vs Other"
+    },
+    {
+      "name": "salary_band__High",
+      "kind": "category",
+      "column": "salary_band",
+      "level": "High",
+      "reference": "Med",
+      "unit": "High vs Med"
+    },
+    {
+      "name": "salary_band__Low",
+      "kind": "category",
+      "column": "salary_band",
+      "level": "Low",
+      "reference": "Med",
+      "unit": "Low vs Med"
+    },
+    {
+      "name": "salary_band__Unknown",
+      "kind": "category",
+      "column": "salary_band",
+      "level": "Unknown",
+      "reference": "Med",
+      "unit": "Unknown vs Med"
+    },
+    {
+      "name": "title_len_10",
+      "kind": "numeric",
+      "unit": "10 title characters"
+    },
+    {
+      "name": "desc_len_1000",
+      "kind": "numeric",
+      "unit": "1000 description characters"
+    },
+    {
+      "name": "kw_data",
+      "kind": "keyword",
+      "unit": "0 to 1 in title"
+    },
+    {
+      "name": "kw_analyst",
+      "kind": "keyword",
+      "unit": "0 to 1 in title"
+    },
+    {
+      "name": "kw_engineer",
+      "kind": "keyword",
+      "unit": "0 to 1 in title"
+    },
+    {
+      "name": "kw_developer",
+      "kind": "keyword",
+      "unit": "0 to 1 in title"
+    },
+    {
+      "name": "kw_manager",
+      "kind": "keyword",
+      "unit": "0 to 1 in title"
+    },
+    {
+      "name": "kw_nurse",
+      "kind": "keyword",
+      "unit": "0 to 1 in title"
+    },
+    {
+      "name": "kw_sales",
+      "kind": "keyword",
+      "unit": "0 to 1 in title"
+    },
+    {
+      "name": "kw_marketing",
+      "kind": "keyword",
+      "unit": "0 to 1 in title"
+    },
+    {
+      "name": "kw_python",
+      "kind": "keyword",
+      "unit": "0 to 1 in title"
+    },
+    {
+      "name": "kw_sql",
+      "kind": "keyword",
+      "unit": "0 to 1 in title"
+    },
+    {
+      "name": "kw_java",
+      "kind": "keyword",
+      "unit": "0 to 1 in title"
+    },
+    {
+      "name": "kw_cloud",
+      "kind": "keyword",
+      "unit": "0 to 1 in title"
+    },
+    {
+      "name": "kw_aws",
+      "kind": "keyword",
+      "unit": "0 to 1 in title"
+    },
+    {
+      "name": "kw_azure",
+      "kind": "keyword",
+      "unit": "0 to 1 in title"
+    },
+    {
+      "name": "kw_gcp",
+      "kind": "keyword",
+      "unit": "0 to 1 in title"
+    },
+    {
+      "name": "log1p_views",
+      "kind": "numeric",
+      "unit": "log(1 + views)"
+    },
+    {
+      "name": "desc_svd_1",
+      "kind": "svd",
+      "unit": "one SVD score unit"
+    },
+    {
+      "name": "desc_svd_2",
+      "kind": "svd",
+      "unit": "one SVD score unit"
+    },
+    {
+      "name": "desc_svd_3",
+      "kind": "svd",
+      "unit": "one SVD score unit"
+    },
+    {
+      "name": "desc_svd_4",
+      "kind": "svd",
+      "unit": "one SVD score unit"
+    },
+    {
+      "name": "desc_svd_5",
+      "kind": "svd",
+      "unit": "one SVD score unit"
+    },
+    {
+      "name": "desc_svd_6",
+      "kind": "svd",
+      "unit": "one SVD score unit"
+    },
+    {
+      "name": "desc_svd_7",
+      "kind": "svd",
+      "unit": "one SVD score unit"
+    },
+    {
+      "name": "desc_svd_8",
+      "kind": "svd",
+      "unit": "one SVD score unit"
+    },
+    {
+      "name": "desc_svd_9",
+      "kind": "svd",
+      "unit": "one SVD score unit"
+    },
+    {
+      "name": "desc_svd_10",
+      "kind": "svd",
+      "unit": "one SVD score unit"
+    },
+    {
+      "name": "desc_svd_11",
+      "kind": "svd",
+      "unit": "one SVD score unit"
+    },
+    {
+      "name": "desc_svd_12",
+      "kind": "svd",
+      "unit": "one SVD score unit"
+    },
+    {
+      "name": "desc_svd_13",
+      "kind": "svd",
+      "unit": "one SVD score unit"
+    },
+    {
+      "name": "desc_svd_14",
+      "kind": "svd",
+      "unit": "one SVD score unit"
+    },
+    {
+      "name": "desc_svd_15",
+      "kind": "svd",
+      "unit": "one SVD score unit"
+    }
+  ],
+  "dropped_constant_features": [],
+  "text_note": "15 SVD components learned on training descriptions.",
+  "vocabulary_size": 1500,
+  "vocabulary_sha256": "de4cf45dbecb8d91dd3fd0a4c96be891903487540367759948b82817f3fa3bf9"
+}

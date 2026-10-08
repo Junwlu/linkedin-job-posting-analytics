@@ -1,0 +1,243 @@
+{
+  "schema_version": "1.1",
+  "project": {
+    "id": "linkedin-recorded-applications",
+    "title": "Recorded LinkedIn Job Applications",
+    "archetype": "empirical",
+    "study_designs": [
+      "quantitative observational",
+      "computational prediction"
+    ],
+    "lifecycle_stage": "release",
+    "review_maturity": "reanalysis",
+    "target_venue": "public reproducibility repository",
+    "active_release": "reanalysis-2026-10-08"
+  },
+  "artifacts": [
+    {
+      "id": "report",
+      "path": "reports/corrected_report.md",
+      "role": "main_manuscript",
+      "status": "ACTIVE",
+      "required_for_release": true
+    },
+    {
+      "id": "notebook",
+      "path": "notebooks/reanalysis.ipynb",
+      "role": "supplement",
+      "status": "ACTIVE",
+      "required_for_release": true
+    },
+    {
+      "id": "pdf",
+      "path": "reports/corrected_report.pdf",
+      "role": "rendered_report",
+      "status": "ACTIVE",
+      "required_for_release": true
+    }
+  ],
+  "authority_sources": [
+    {
+      "id": "raw",
+      "kind": "verified_primary_evidence",
+      "path_or_reference": "Kaggle arshkon/linkedin-job-postings version 13; recovered postings.csv.zip",
+      "scope": [
+        "data",
+        "population",
+        "fields"
+      ],
+      "status": "VERIFIED",
+      "last_verified": "2026-10-08"
+    },
+    {
+      "id": "new_results",
+      "kind": "analysis_output",
+      "path_or_reference": "results/",
+      "scope": [
+        "results",
+        "numbers"
+      ],
+      "status": "VERIFIED",
+      "last_verified": "2026-10-08"
+    },
+    {
+      "id": "legacy",
+      "kind": "historical_reference",
+      "path_or_reference": "Original December 2025 report and presentation (archived locally)",
+      "scope": [
+        "original questions",
+        "historical claims"
+      ],
+      "status": "VERIFIED",
+      "last_verified": "2026-10-08"
+    }
+  ],
+  "contract": {
+    "gap": "Earlier work used a damaged CSV and incompatible evaluation summaries.",
+    "task": "Reanalyse the recovered original data and correct the report with executable evidence.",
+    "outcomes": [
+      "recorded applications/clicks conditional on observed applies and views"
+    ],
+    "questions": [
+      {
+        "id": "Q1",
+        "text": "Which job and text attributes are associated with recorded application counts conditional on views?",
+        "lock": "SEMANTIC"
+      },
+      {
+        "id": "Q2",
+        "text": "Do fold-fitted description SVD features add held-out predictive information?",
+        "lock": "SEMANTIC"
+      },
+      {
+        "id": "Q3",
+        "text": "How do three count-mean models compare on identical out-of-fold observations?",
+        "lock": "SEMANTIC"
+      }
+    ],
+    "contribution": "Source-audited reanalysis with transparent corrections and reproducible evaluation.",
+    "nonclaims": [
+      "causal effects",
+      "completed applications for every application type",
+      "zero-application behavior",
+      "out-of-time or new-employer generalization",
+      "exact reproduction of old invalid scores"
+    ]
+  },
+  "semantic_locks": [],
+  "terminology": [
+    {
+      "id": "outcome",
+      "preferred": "recorded applications",
+      "prohibited": [
+        "confirmed completed applications"
+      ],
+      "scope_roles": [
+        "main_manuscript"
+      ]
+    }
+  ],
+  "style_profile": {
+    "language_variant": "English",
+    "protected_terms": [
+      "Poisson",
+      "Lasso",
+      "XGBoost",
+      "TF-IDF",
+      "SVD"
+    ],
+    "discouraged_phrases": [],
+    "preferred_open_compounds": [],
+    "allowed_repetitions": [
+      "recorded applications"
+    ],
+    "sentence_opening_words": 4,
+    "phrase_words": 5,
+    "phrase_min_occurrences": 3
+  },
+  "facts": [
+    {
+      "id": "raw_rows",
+      "value": 123849,
+      "source_id": "raw",
+      "expected_strings": [
+        "123,849"
+      ],
+      "scope_roles": [
+        "main_manuscript"
+      ]
+    },
+    {
+      "id": "observed_joint",
+      "value": 23319,
+      "source_id": "raw",
+      "expected_strings": [
+        "23,319"
+      ],
+      "scope_roles": [
+        "main_manuscript"
+      ]
+    }
+  ],
+  "alignment": [
+    {
+      "question_id": "Q1",
+      "method": "full-sample descriptive Poisson with robust uncertainty",
+      "evidence": "results/poisson_coefficients.csv",
+      "result": "Application flows and selected title indicators show conditional associations; broad full-time/Python claims are unsupported.",
+      "interpretation": "Conditional descriptive or held-out evidence only; see report.",
+      "limitation": "observed positive records only; observational",
+      "contribution": "reproducible evidence",
+      "status": "COMPLETE"
+    },
+    {
+      "question_id": "Q2",
+      "method": "shared-fold full vs no-SVD Poisson ablation",
+      "evidence": "results/cv_summary.csv",
+      "result": "Description SVD reduces Poisson MAE by 2.40% in the specified ablation.",
+      "interpretation": "Conditional descriptive or held-out evidence only; see report.",
+      "limitation": "observed positive records only; observational",
+      "contribution": "reproducible evidence",
+      "status": "COMPLETE"
+    },
+    {
+      "question_id": "Q3",
+      "method": "nested training-only tuning and pooled OOF metrics",
+      "evidence": "results/cv_summary.csv",
+      "result": "XGBoost MAE 4.106, RMSE 15.530 and mean deviance 3.026 on shared OOF rows.",
+      "interpretation": "Conditional descriptive or held-out evidence only; see report.",
+      "limitation": "observed positive records only; observational",
+      "contribution": "reproducible evidence",
+      "status": "COMPLETE"
+    }
+  ],
+  "dimensions": [],
+  "decisions": [
+    {
+      "date": "2026-10-08",
+      "decision": "Use original ZIP rather than damaged working CSV; learn log1p views in primary models; historical exposure specifications are sensitivities."
+    },
+    {
+      "date": "2026-10-08",
+      "decision": "User authorized public GitHub publication; raw large data stay outside Git, with licensed source and pinned download instructions."
+    }
+  ],
+  "issues": [
+    {
+      "id": "execution",
+      "severity": "S4",
+      "status": "RESOLVED",
+      "description": "New numerical results must be executed and independently checked before claims are written.",
+      "evidence_status": "CONFIRMED",
+      "resolution": "Full source run completed; independent saved-prediction checks, synthetic tests and report numerical review passed."
+    }
+  ],
+  "release": {
+    "status": "VERIFIED",
+    "candidate_artifact_ids": [
+      "report",
+      "notebook",
+      "pdf"
+    ],
+    "required_checks": [
+      "argument_structure",
+      "evidence_scope",
+      "scholarly_writing",
+      "delivery_integrity",
+      "functional_completeness"
+    ],
+    "completed_checks": [
+      "argument_structure",
+      "evidence_scope",
+      "scholarly_writing",
+      "delivery_integrity",
+      "functional_completeness"
+    ],
+    "checked_hashes": {
+      "report": "429f893290c0ceb00b6d10cde338b57a4e5dcb5991bc1ca30cb981f679dce23d",
+      "notebook": "8437d4d01b779660eee768cab2ef58cb64837c520c51da53c1b6c78d7b6a539e",
+      "pdf": "57bb0100aed43e355bd87a9ae7906d81995ff1879cca07c71451087c30e9d81a"
+    },
+    "visual_check": "PASSED"
+  }
+}

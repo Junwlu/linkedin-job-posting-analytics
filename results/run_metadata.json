@@ -1,0 +1,54 @@
+{
+  "completed_utc": "2026-10-08T05:29:18.898207+00:00",
+  "elapsed_seconds": 624.05,
+  "python": "3.11.5",
+  "platform": "Windows",
+  "versions": {
+    "numpy": "2.4.6",
+    "pandas": "3.0.6",
+    "scipy": "1.17.1",
+    "scikit-learn": "1.9.1",
+    "glum": "3.4.1",
+    "xgboost": "3.2.0",
+    "statsmodels": "0.15.0",
+    "matplotlib": "3.11.2",
+    "pyarrow": "25.0.1",
+    "threadpoolctl": "3.7.0"
+  },
+  "source_csv_sha256": "de33f27c8d1b226014e0cede003404e9b0acb66db718671fda9b3e3538eca6ea",
+  "source_matches_pinned_v13": true,
+  "config": {
+    "seed": 20251201,
+    "n_splits": 5,
+    "inner_fraction": 0.2,
+    "n_svd": 15,
+    "max_text_features": 1500,
+    "min_category_count": 20,
+    "min_text_df": 5,
+    "alpha_grid": [
+      0.001,
+      0.01,
+      0.1,
+      1.0
+    ],
+    "max_boost_rounds": 800,
+    "early_stopping_rounds": 40,
+    "n_threads": 4,
+    "glm_max_iter": 200,
+    "glm_gradient_tol": 1e-05,
+    "xgb_max_depth": 4,
+    "xgb_eta": 0.05,
+    "model_variants": [
+      "main",
+      "no_svd",
+      "views_offset",
+      "legacy_offset"
+    ]
+  },
+  "config_sha256": "7b495877a24927330247ee3541112752f338580f080c9945749f90c3d1cb9d28",
+  "smoke_sample": false,
+  "notes": [
+    "Public outputs omit full job descriptions and personal/local paths.",
+    "Cross-validation targets held-out postings, not future dates or unseen employers."
+  ]
+}

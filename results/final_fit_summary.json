@@ -1,0 +1,21 @@
+{
+  "n_rows": 23319,
+  "n_features": 72,
+  "poisson_n_parameters": 73,
+  "lasso_alpha": 0.010000000000000004,
+  "lasso_nonzero_coefficients": 67,
+  "xgb_rounds": 571,
+  "poisson_dropped_aliases": [],
+  "poisson_fit_warnings": [],
+  "lasso_fit_warnings": [],
+  "poisson_pearson_dispersion": 3.5654971544179204,
+  "hyperparameter_rule": "Median inner-selected hyperparameters; geometric median for alpha.",
+  "role": "Full-data conditional associations and fitted artifacts, not held-out performance.",
+  "main_offset": "zero; log1p_views is estimated as a predictor",
+  "numeric_coefficient_scale": "Original feature units shown in coefficient tables; glum reverses internal scaling.",
+  "covariance_type": "company_cluster",
+  "n_clusters": 10968,
+  "design_rank": 73,
+  "n_parameters": 73,
+  "scaled_hessian_condition": 144.7551091725857
+}

@@ -1,0 +1,244 @@
+{
+  "application_type": {
+    "kept": [
+      "ComplexOnsiteApply",
+      "OffsiteApply",
+      "SimpleOnsiteApply"
+    ],
+    "levels": [
+      "ComplexOnsiteApply",
+      "OffsiteApply",
+      "SimpleOnsiteApply",
+      "__Other__"
+    ],
+    "reference": "OffsiteApply",
+    "preferred_reference": "OffsiteApply",
+    "reference_fallback": false,
+    "training_counts": {
+      "ComplexOnsiteApply": 11637,
+      "OffsiteApply": 9734,
+      "SimpleOnsiteApply": 1947,
+      "Unknown": 1
+    }
+  },
+  "formatted_work_type": {
+    "kept": [
+      "Contract",
+      "Full-time",
+      "Internship",
+      "Other",
+      "Part-time",
+      "Temporary",
+      "Volunteer"
+    ],
+    "levels": [
+      "Contract",
+      "Full-time",
+      "Internship",
+      "Other",
+      "Part-time",
+      "Temporary",
+      "Volunteer"
+    ],
+    "reference": "Full-time",
+    "preferred_reference": "Full-time",
+    "reference_fallback": false,
+    "training_counts": {
+      "Full-time": 17438,
+      "Contract": 4622,
+      "Part-time": 674,
+      "Internship": 364,
+      "Temporary": 134,
+      "Other": 56,
+      "Volunteer": 31
+    }
+  },
+  "formatted_experience_level": {
+    "kept": [
+      "Associate",
+      "Director",
+      "Entry level",
+      "Executive",
+      "Internship",
+      "Mid-Senior level",
+      "Unknown"
+    ],
+    "levels": [
+      "Associate",
+      "Director",
+      "Entry level",
+      "Executive",
+      "Internship",
+      "Mid-Senior level",
+      "Unknown"
+    ],
+    "reference": "Mid-Senior level",
+    "preferred_reference": "Mid-Senior level",
+    "reference_fallback": false,
+    "training_counts": {
+      "Mid-Senior level": 8660,
+      "Unknown": 6683,
+      "Entry level": 3466,
+      "Associate": 2911,
+      "Director": 939,
+      "Internship": 340,
+      "Executive": 320
+    }
+  },
+  "remote_allowed": {
+    "kept": [
+      "Remote",
+      "Unknown"
+    ],
+    "levels": [
+      "Remote",
+      "Unknown"
+    ],
+    "reference": "Unknown",
+    "preferred_reference": "Unknown",
+    "reference_fallback": false,
+    "training_counts": {
+      "Unknown": 16904,
+      "Remote": 6415
+    }
+  },
+  "sponsored": {
+    "kept": [
+      "NotSponsored"
+    ],
+    "levels": [
+      "NotSponsored"
+    ],
+    "reference": "NotSponsored",
+    "preferred_reference": "NotSponsored",
+    "reference_fallback": false,
+    "training_counts": {
+      "NotSponsored": 23319
+    }
+  },
+  "region": {
+    "kept": [
+      "Midwest",
+      "Northeast",
+      "Other",
+      "South",
+      "US-Unknown",
+      "West"
+    ],
+    "levels": [
+      "Midwest",
+      "Northeast",
+      "Other",
+      "South",
+      "US-Unknown",
+      "West"
+    ],
+    "reference": "South",
+    "preferred_reference": "South",
+    "reference_fallback": false,
+    "training_counts": {
+      "South": 6110,
+      "US-Unknown": 3930,
+      "West": 3929,
+      "Northeast": 3560,
+      "Other": 3029,
+      "Midwest": 2761
+    }
+  },
+  "seniority": {
+    "kept": [
+      "Unknown",
+      "associate",
+      "cxo",
+      "director",
+      "intern",
+      "junior",
+      "lead",
+      "senior",
+      "vp"
+    ],
+    "levels": [
+      "Unknown",
+      "associate",
+      "cxo",
+      "director",
+      "intern",
+      "junior",
+      "lead",
+      "senior",
+      "vp"
+    ],
+    "reference": "Unknown",
+    "preferred_reference": "Unknown",
+    "reference_fallback": false,
+    "training_counts": {
+      "Unknown": 17010,
+      "senior": 2730,
+      "director": 1026,
+      "associate": 723,
+      "lead": 685,
+      "intern": 548,
+      "vp": 285,
+      "cxo": 157,
+      "junior": 155
+    }
+  },
+  "role_family": {
+    "kept": [
+      "Analytics",
+      "Cloud",
+      "Data",
+      "Engineering",
+      "Marketing",
+      "Nursing",
+      "Other",
+      "Sales"
+    ],
+    "levels": [
+      "Analytics",
+      "Cloud",
+      "Data",
+      "Engineering",
+      "Marketing",
+      "Nursing",
+      "Other",
+      "Sales"
+    ],
+    "reference": "Other",
+    "preferred_reference": "Other",
+    "reference_fallback": false,
+    "training_counts": {
+      "Other": 13619,
+      "Engineering": 4349,
+      "Analytics": 1584,
+      "Data": 1466,
+      "Sales": 1376,
+      "Marketing": 642,
+      "Cloud": 165,
+      "Nursing": 118
+    }
+  },
+  "salary_band": {
+    "kept": [
+      "High",
+      "Low",
+      "Med",
+      "Unknown"
+    ],
+    "levels": [
+      "High",
+      "Low",
+      "Med",
+      "Unknown"
+    ],
+    "reference": "Med",
+    "preferred_reference": "Med",
+    "reference_fallback": false,
+    "training_counts": {
+      "Unknown": 14497,
+      "Med": 2990,
+      "Low": 2921,
+      "High": 2911
+    }
+  }
+}
